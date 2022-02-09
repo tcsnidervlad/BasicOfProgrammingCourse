@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Laba 5b(1)/Program2/libs/algoritms/algoritm.c
+algoritm.h
+C:/Laba 5b(1)/Program2/libs/algoritms/algoritm.h
+
+C:/Laba 5b(1)/Program2/libs/algoritms/algoritm.h
+
+C:/Laba 5b(1)/Program2/libs/algoritms/array/array.c
+array.h
+C:/Laba 5b(1)/Program2/libs/algoritms/array/array.h
+
+C:/Laba 5b(1)/Program2/libs/algoritms/array/array.h
+

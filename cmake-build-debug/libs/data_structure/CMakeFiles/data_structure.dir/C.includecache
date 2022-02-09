@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Laba 5b(1)/Program2/libs/data_structure/vector/vector.c
+vector.h
+C:/Laba 5b(1)/Program2/libs/data_structure/vector/vector.h
+stdint.h
+-
+memory.h
+-
+malloc.h
+-
+stdbool.h
+-
+assert.h
+-
+
+C:/Laba 5b(1)/Program2/libs/data_structure/vector/vector.h
+stdio.h
+-
+memory.h
+-
+malloc.h
+-
+stdbool.h
+-
+assert.h
+-
+
