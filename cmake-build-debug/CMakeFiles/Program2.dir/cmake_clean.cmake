@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.obj"
+  "CMakeFiles/Program2.dir/libs/algoritms/array/array.c.obj"
+  "CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.obj"
   "CMakeFiles/Program2.dir/main.c.obj"
   "Program2.exe"
   "Program2.exe.manifest"

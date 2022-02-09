@@ -1,3 +1,11 @@
 C:/Laba 5b(1)/Program2/cmake-build-debug/CMakeFiles/Program2.dir
 C:/Laba 5b(1)/Program2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Laba 5b(1)/Program2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Laba 5b(1)/Program2/cmake-build-debug/libs/CMakeFiles/edit_cache.dir
+C:/Laba 5b(1)/Program2/cmake-build-debug/libs/CMakeFiles/rebuild_cache.dir
+C:/Laba 5b(1)/Program2/cmake-build-debug/libs/algoritms/CMakeFiles/rebuild_cache.dir
+C:/Laba 5b(1)/Program2/cmake-build-debug/libs/algoritms/CMakeFiles/algoritms.dir
+C:/Laba 5b(1)/Program2/cmake-build-debug/libs/algoritms/CMakeFiles/edit_cache.dir
+C:/Laba 5b(1)/Program2/cmake-build-debug/libs/data_structure/CMakeFiles/data_structure.dir
+C:/Laba 5b(1)/Program2/cmake-build-debug/libs/data_structure/CMakeFiles/edit_cache.dir
+C:/Laba 5b(1)/Program2/cmake-build-debug/libs/data_structure/CMakeFiles/rebuild_cache.dir

@@ -128,6 +128,104 @@ Program2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/build
 .PHONY : Program2/fast
 
+#=============================================================================
+# Target rules for targets named algoritms
+
+# Build rule for target.
+algoritms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algoritms
+.PHONY : algoritms
+
+# fast build rule for target.
+algoritms/fast:
+	$(MAKE) $(MAKESILENT) -f libs\algoritms\CMakeFiles\algoritms.dir\build.make libs/algoritms/CMakeFiles/algoritms.dir/build
+.PHONY : algoritms/fast
+
+#=============================================================================
+# Target rules for targets named data_structure
+
+# Build rule for target.
+data_structure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 data_structure
+.PHONY : data_structure
+
+# fast build rule for target.
+data_structure/fast:
+	$(MAKE) $(MAKESILENT) -f libs\data_structure\CMakeFiles\data_structure.dir\build.make libs/data_structure/CMakeFiles/data_structure.dir/build
+.PHONY : data_structure/fast
+
+libs/algoritms/algoritm.obj: libs/algoritms/algoritm.c.obj
+.PHONY : libs/algoritms/algoritm.obj
+
+# target to build an object file
+libs/algoritms/algoritm.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.obj
+.PHONY : libs/algoritms/algoritm.c.obj
+
+libs/algoritms/algoritm.i: libs/algoritms/algoritm.c.i
+.PHONY : libs/algoritms/algoritm.i
+
+# target to preprocess a source file
+libs/algoritms/algoritm.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.i
+.PHONY : libs/algoritms/algoritm.c.i
+
+libs/algoritms/algoritm.s: libs/algoritms/algoritm.c.s
+.PHONY : libs/algoritms/algoritm.s
+
+# target to generate assembly for a file
+libs/algoritms/algoritm.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.s
+.PHONY : libs/algoritms/algoritm.c.s
+
+libs/algoritms/array/array.obj: libs/algoritms/array/array.c.obj
+.PHONY : libs/algoritms/array/array.obj
+
+# target to build an object file
+libs/algoritms/array/array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/algoritms/array/array.c.obj
+.PHONY : libs/algoritms/array/array.c.obj
+
+libs/algoritms/array/array.i: libs/algoritms/array/array.c.i
+.PHONY : libs/algoritms/array/array.i
+
+# target to preprocess a source file
+libs/algoritms/array/array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/algoritms/array/array.c.i
+.PHONY : libs/algoritms/array/array.c.i
+
+libs/algoritms/array/array.s: libs/algoritms/array/array.c.s
+.PHONY : libs/algoritms/array/array.s
+
+# target to generate assembly for a file
+libs/algoritms/array/array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/algoritms/array/array.c.s
+.PHONY : libs/algoritms/array/array.c.s
+
+libs/data_structure/vector/vector.obj: libs/data_structure/vector/vector.c.obj
+.PHONY : libs/data_structure/vector/vector.obj
+
+# target to build an object file
+libs/data_structure/vector/vector.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.obj
+.PHONY : libs/data_structure/vector/vector.c.obj
+
+libs/data_structure/vector/vector.i: libs/data_structure/vector/vector.c.i
+.PHONY : libs/data_structure/vector/vector.i
+
+# target to preprocess a source file
+libs/data_structure/vector/vector.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.i
+.PHONY : libs/data_structure/vector/vector.c.i
+
+libs/data_structure/vector/vector.s: libs/data_structure/vector/vector.c.s
+.PHONY : libs/data_structure/vector/vector.s
+
+# target to generate assembly for a file
+libs/data_structure/vector/vector.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Program2.dir\build.make CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.s
+.PHONY : libs/data_structure/vector/vector.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -161,6 +259,17 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Program2
+	@echo ... algoritms
+	@echo ... data_structure
+	@echo ... libs/algoritms/algoritm.obj
+	@echo ... libs/algoritms/algoritm.i
+	@echo ... libs/algoritms/algoritm.s
+	@echo ... libs/algoritms/array/array.obj
+	@echo ... libs/algoritms/array/array.i
+	@echo ... libs/algoritms/array/array.s
+	@echo ... libs/data_structure/vector/vector.obj
+	@echo ... libs/data_structure/vector/vector.i
+	@echo ... libs/data_structure/vector/vector.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

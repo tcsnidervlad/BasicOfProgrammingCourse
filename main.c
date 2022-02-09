@@ -2,50 +2,27 @@
 #include <stdint.h>
 # include <memory.h>
 #include <malloc.h>
+#include "libs/data_structure/vector/vector.h"
 
-
-typedef struct vector {
-    int *data; // указатель на элементы вектора
-    size_t size; // размер вектора
-    size_t capacity; // вместимость вектора
-} vector;
-
-
-vector createVector(size_t n) {
-    return (vector) {malloc(sizeof(int) * n),
-                     0,
-                     n};
+void test_pushBack_emptyVector() {
+    vector v = createVector(0);
+    pushBack(&v, 3);
+    assert(v.size == 1);
 }
 
-void reserve(vector *v, size_t newCapacity) {
-    if (newCapacity == 0) {
-        v->data = NULL;
-        v->size = newCapacity;
-        v->capacity = newCapacity;
-    } else if (newCapacity < v->size) {
-        v->data = malloc(sizeof(int) * newCapacity);
-        v->size = newCapacity;
-        v->capacity = newCapacity;
-    } else {
-        v->data = malloc(sizeof(int) * newCapacity);
-        v->capacity = newCapacity;
-    }
+void test_pushBack_fullVector() {
+    vector v = (vector) {(int[]) {1}, 1, 5};
+    pushBack(&v, 2);
+    assert(v.size == 2 && v.capacity == 5);
+    deleteVector(&v);
 }
 
-void clear(vector *v) {
-    v->size = 0;
+void test() {
+    test_pushBack_emptyVector();
+    test_pushBack_fullVector();
 }
-
-void shrinkToFit(vector *v) {
-    v->data = (int *) realloc(v->data, sizeof(int) * v->size);
-}
-void deleteVector(vector *v){
-    free(v->data);
-}
-
-
 int main() {
-
+    test();
 
     return 0;
 }

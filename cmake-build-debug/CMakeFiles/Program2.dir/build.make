@@ -78,19 +78,66 @@ CMakeFiles/Program2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Program2.dir/main.c.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Laba 5b(1)\Program2\main.c" -o CMakeFiles\Program2.dir\main.c.s
 
+CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.obj: CMakeFiles/Program2.dir/flags.make
+CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.obj: ../libs/algoritms/algoritm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Laba 5b(1)\Program2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Program2.dir\libs\algoritms\algoritm.c.obj -c "C:\Laba 5b(1)\Program2\libs\algoritms\algoritm.c"
+
+CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Laba 5b(1)\Program2\libs\algoritms\algoritm.c" > CMakeFiles\Program2.dir\libs\algoritms\algoritm.c.i
+
+CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Laba 5b(1)\Program2\libs\algoritms\algoritm.c" -o CMakeFiles\Program2.dir\libs\algoritms\algoritm.c.s
+
+CMakeFiles/Program2.dir/libs/algoritms/array/array.c.obj: CMakeFiles/Program2.dir/flags.make
+CMakeFiles/Program2.dir/libs/algoritms/array/array.c.obj: ../libs/algoritms/array/array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Laba 5b(1)\Program2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Program2.dir/libs/algoritms/array/array.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Program2.dir\libs\algoritms\array\array.c.obj -c "C:\Laba 5b(1)\Program2\libs\algoritms\array\array.c"
+
+CMakeFiles/Program2.dir/libs/algoritms/array/array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Program2.dir/libs/algoritms/array/array.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Laba 5b(1)\Program2\libs\algoritms\array\array.c" > CMakeFiles\Program2.dir\libs\algoritms\array\array.c.i
+
+CMakeFiles/Program2.dir/libs/algoritms/array/array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Program2.dir/libs/algoritms/array/array.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Laba 5b(1)\Program2\libs\algoritms\array\array.c" -o CMakeFiles\Program2.dir\libs\algoritms\array\array.c.s
+
+CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.obj: CMakeFiles/Program2.dir/flags.make
+CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.obj: ../libs/data_structure/vector/vector.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Laba 5b(1)\Program2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Program2.dir\libs\data_structure\vector\vector.c.obj -c "C:\Laba 5b(1)\Program2\libs\data_structure\vector\vector.c"
+
+CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Laba 5b(1)\Program2\libs\data_structure\vector\vector.c" > CMakeFiles\Program2.dir\libs\data_structure\vector\vector.c.i
+
+CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Laba 5b(1)\Program2\libs\data_structure\vector\vector.c" -o CMakeFiles\Program2.dir\libs\data_structure\vector\vector.c.s
+
 # Object files for target Program2
 Program2_OBJECTS = \
-"CMakeFiles/Program2.dir/main.c.obj"
+"CMakeFiles/Program2.dir/main.c.obj" \
+"CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.obj" \
+"CMakeFiles/Program2.dir/libs/algoritms/array/array.c.obj" \
+"CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.obj"
 
 # External object files for target Program2
 Program2_EXTERNAL_OBJECTS =
 
 Program2.exe: CMakeFiles/Program2.dir/main.c.obj
+Program2.exe: CMakeFiles/Program2.dir/libs/algoritms/algoritm.c.obj
+Program2.exe: CMakeFiles/Program2.dir/libs/algoritms/array/array.c.obj
+Program2.exe: CMakeFiles/Program2.dir/libs/data_structure/vector/vector.c.obj
 Program2.exe: CMakeFiles/Program2.dir/build.make
+Program2.exe: libs/algoritms/libalgoritms.a
+Program2.exe: libs/data_structure/libdata_structure.a
 Program2.exe: CMakeFiles/Program2.dir/linklibs.rsp
 Program2.exe: CMakeFiles/Program2.dir/objects1.rsp
 Program2.exe: CMakeFiles/Program2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Laba 5b(1)\Program2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Program2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Laba 5b(1)\Program2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Program2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Program2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

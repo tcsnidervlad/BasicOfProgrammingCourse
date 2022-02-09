@@ -1,0 +1,2 @@
+add_subdirectory(algoritms)
+add_subdirectory(data_structure)
